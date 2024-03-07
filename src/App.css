@@ -1,0 +1,18 @@
+
+.container{
+    background-color:#fff;
+    height:50rem;
+    width:120rem;
+    margin:auto;
+    margin-top:8rem;
+    padding:5rem;
+
+    box-shadow: 0 2rem  5rem rgba(#000, .16);
+    
+  }
+
+
+  h1{
+    text-align: center;
+    margin-top:-3rem;
+  }

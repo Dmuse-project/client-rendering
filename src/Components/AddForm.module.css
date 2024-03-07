@@ -1,0 +1,82 @@
+label{
+    
+    text-transform: uppercase;
+    font-size:1.3rem;
+    letter-spacing: 2px;
+     margin-right: 1rem;
+}
+
+input{
+    display:block;
+    border:none;
+padding: 0.7rem 1.4rem;
+border-radius:1rem;
+color:#777;
+background:#f7f7f7;
+font-family:inherit;
+
+box-shadow: 0  2rem 5rem rgba(#000, 0.3);
+} 
+input:focus{
+    outline:none;
+    box-shadow: 0 2rem  5rem rgba(#000, .16);
+    border-bottom: 1px solid red;
+}
+
+.form__container{
+    display:flex;
+    align-items:flex-start;
+    margin-top:2rem;
+    margin-left:2rem;
+
+    
+}
+ .form__container:not(:last-child){
+    margin-bottom:2rem;
+ }
+
+
+ .btn__container{
+    margin-bottom:2rem;
+ }
+
+ .btn{
+    border:none;
+    color:#fff;
+    background:Red;
+    display:block;
+    padding: 0.7rem 1.5rem;
+    font-size:1.3rem;
+    font-family:inherit;
+    box-shadow: 0 1rem  3rem rgba(#000, .6);
+    text-transform: uppercase;
+    transition: all .3s;
+    cursor: pointer;
+    letter-spacing: 2px;
+    line-height:1.6;
+
+ }
+
+
+ .btn:hover{
+    background-color:Orangered;
+    transform:translateY(-2px);
+    box-shadow: 0 2rem  5rem rgba(#000, .16);
+ }
+
+
+ .grid{
+   display: flex;
+ }
+
+
+
+ .invalid label{
+   color:red;
+ }
+ .invalid input{
+   border: 1px solid orange;
+   color:red;
+   outline:none;
+   padding:.5rem;
+ }
